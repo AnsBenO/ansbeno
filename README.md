@@ -11,8 +11,9 @@ I'm a software development enthusiast passionate about building applications wit
 - **Security**: JWT
 
 ### 🌱 Currently Learning:
-- Advanced Spring Boot features
-- Security best practices
+- Advanced Spring Boot and Angular features
+- How to secure applications
+- Coding best practices
 - Building full-stack applications with Angular on the frontend and Spring Boot on the backend 
 
 ### 📊 GitHub Stats:

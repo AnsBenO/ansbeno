@@ -20,7 +20,4 @@ I'm a software development enthusiast passionate about building applications wit
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&langs_count=5&theme=merko)]()
 
-### 📫 How to reach me:
-- [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/anas-benomar-159374274/)) 
-
 Feel free to explore my repositories and reach out if you want to collaborate or chat about tech!

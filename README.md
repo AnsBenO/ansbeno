@@ -1,19 +1,26 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**AnsBenO/ansbeno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software development enthusiast passionate about building applications with modern technologies. While I'm not an expert, I'm constantly learning and exploring new tools and frameworks to expand my skills.
 
-Here are some ideas to get you started:
+### 🛠️ Technologies & Tools I Work With:
+- **Languages**: Java, TypeScript, JavaScript
+- **Backend**: Spring Boot, Node.js, Express.js
+- **Frontend**: Angular, React
+- **Databases**: MongoDB, PostgreSQL, MySQL
+- **DevOps**: Docker
+- **Security**: JWT
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌱 Currently Learning:
+- Advanced Spring Boot features
+- Security best practices
+- Building full-stack applications with Angular on the frontend and Spring Boot on the backend 
 
+### 📊 GitHub Stats:
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=ansbeno&count_private=true&theme=tokyonight&showicons=true)]()
+
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&langs_count=5&theme=tokyonight)]()
+
+### 📫 How to reach me:
+- [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/anas-benomar-159374274/)) 
+
+Feel free to explore my repositories and reach out if you want to collaborate or chat about tech!

@@ -7,7 +7,7 @@ I'm a software development enthusiast passionate about building applications wit
 - **Backend**: Spring Boot, Node.js, Express.js
 - **Frontend**: Angular, React
 - **Databases**: MongoDB, PostgreSQL, MySQL
-- **DevOps**: Docker
+- **CI/CD**: Docker, Github workflow, SonarQube 
 - **Security**: JWT
 
 ### 🌱 Currently Learning:

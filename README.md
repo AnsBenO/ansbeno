@@ -17,7 +17,6 @@ I'm a software development enthusiast passionate about building applications wit
 - Building full-stack applications with Angular on the frontend and Spring Boot on the backend 
 
 ### 📊 GitHub Stats:
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=ansbeno&count_private=true&theme=merko&showicons=true)]()
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&langs_count=5&theme=merko)]()
 

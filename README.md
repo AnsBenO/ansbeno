@@ -8,7 +8,7 @@ I'm a software development enthusiast passionate about building applications wit
 - **Frontend**: Angular, React
 - **Databases**: MongoDB, PostgreSQL, MySQL
 - **CI/CD**: Docker, Github workflow, SonarQube 
-- **Security**: JWT
+- **Security**: OAUTH2.0
 
 ### 🌱 Currently Learning:
 - Advanced Spring Boot and Angular features

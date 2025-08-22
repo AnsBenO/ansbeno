@@ -4,19 +4,10 @@ I'm a software development enthusiast passionate about building applications wit
 
 ### 🛠️ Technologies & Tools I Work With:
 - **Languages**: Java, TypeScript, JavaScript
-- **Backend**: Spring Boot, Node.js, Express.js
-- **Frontend**: Angular, React
+- **Backend**: Spring, Jakarta EE, Node.js, Express.js
+- **Frontend**: Angular, ReactJs
 - **Databases**: MongoDB, PostgreSQL, MySQL
-- **CI/CD**: Docker, Github workflow 
-- **Security**: OAUTH2.0
-
-### 🌱 Currently Learning:
-- Advanced Spring Boot and Angular features
-- How to secure applications
-- Coding best practices
-- Building full-stack applications with Angular on the frontend and Spring Boot on the backend 
-
-### 📊 GitHub Stats:
+- **CI/CD**: Docker, Github workflow
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&langs_count=5&theme=merko)]()
 

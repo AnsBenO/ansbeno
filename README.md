@@ -1,14 +1,28 @@
-# Hi there 👋
+# Hi there, I'm Anass 👋
 
-I'm a software development enthusiast passionate about building applications with modern technologies. While I'm not an expert, I'm constantly learning and exploring new tools and frameworks to expand my skills.
+I'm a **Software Engineer** specializing in full-stack web application development and cloud operations. I enjoy building reliable backend systems, responsive frontend interfaces, and streamlining CI/CD pipelines.
 
-### 🛠️ Technologies & Tools I Work With:
-- **Languages**: Java, TypeScript, JavaScript
-- **Backend**: Spring, Jakarta EE, Node.js, Express.js
-- **Frontend**: Angular, ReactJs
-- **Databases**: MongoDB, PostgreSQL, MySQL
-- **CI/CD**: Docker, Github workflow
+---
 
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&langs_count=5&theme=merko)]()
+### 🚀 Tech Stack & Tools
 
-Feel free to explore my repositories and reach out if you want to collaborate or chat about tech!
+* **Languages:** Java, TypeScript, JavaScript, SQL
+* **Backend:** Spring Boot, Jakarta EE, Hibernate, Node.js, Express.js
+* **Frontend:** Angular, React, PrimeNG, HTML5/CSS3
+* **DevOps & Cloud:** Docker, Kubernetes (GKE), Google Cloud Platform (GCP), Jenkins, GitHub Actions
+* **Databases & Tools:** PostgreSQL, MySQL, MongoDB, Flyway, Kibana, Git
+
+---
+
+### 📊 GitHub Stats
+
+[![Anass's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ansbeno&layout=compact&theme=merko)](https://github.com/ansbeno)
+
+---
+
+### 📫 Connect with Me
+
+Feel free to explore my repositories! If you'd like to collaborate on an open-source project or talk tech, let's connect:
+
+* **LinkedIn:** [linkedin.com/in/anass-benomar](https://linkedin.com) *(Update with your actual URL)*
+* **Portfolio/Email:** *(Add your contact link here)*

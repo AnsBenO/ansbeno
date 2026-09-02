@@ -1,0 +1,109 @@
+name: Update Profile Stats JSON
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Runs every 12 hours
+  workflow_dispatch: # Allows you to run it manually anytime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-node-version: '20'
+
+      - name: Fetch and Generate JSON
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat << 'EOF' > get-stats.js
+          const fs = require('fs');
+
+          async function fetchStats() {
+            // Using GitHub's GraphQL API to fetch deep user statistics safely
+            const query = `
+              query($username: String!) {
+                user(login: $username) {
+                  name
+                  contributionsCollection {
+                    totalCommitContributions
+                    restrictedContributionsCount
+                  }
+                  repositoriesContributedTo(first: 1) { totalCount }
+                  pullRequests(first: 1) { totalCount }
+                  issues(first: 1) { totalCount }
+                  followers { totalCount }
+                  repositories(first: 100, ownerAffiliations: OWNER, orderBy: {field: STARGAZERS, direction: DESC}) {
+                    nodes {
+                      stargazers { totalCount }
+                      forkCount
+                      languages(first: 5, orderBy: {field: SIZE, direction: DESC}) {
+                        edges {
+                          size
+                          node { name color }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const username = process.env.GITHUB_REPOSITORY.split('/')[0];
+            const response = await fetch('https://github.com', {
+              method: 'POST',
+              headers: {
+                'Authorization': `bearer ${process.env.GITHUB_TOKEN}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ query, variables: { username } })
+            });
+
+            const result = await response.json();
+            const user = result.data.user;
+
+            // Process aggregate statistics
+            let totalStars = 0;
+            let totalForks = 0;
+            const languageMap = {};
+
+            user.repositories.nodes.forEach(repo => {
+              totalStars += repo.stargazers.totalCount;
+              totalForks += repo.forkCount;
+              repo.languages.edges.forEach(lang => {
+                languageMap[lang.node.name] = (languageMap[lang.node.name] || 0) + lang.size;
+              });
+            });
+
+            const stats = {
+              username: username,
+              name: user.name,
+              commits: user.contributionsCollection.totalCommitContributions + user.contributionsCollection.restrictedContributionsCount,
+              prs: user.pullRequests.totalCount,
+              issues: user.issues.totalCount,
+              stars: totalStars,
+              forks: totalForks,
+              followers: user.followers.totalCount,
+              languages: Object.entries(languageMap).map(([name, size]) => ({ name, size })).sort((a,b) => b.size - a.size)
+            };
+
+            fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+          }
+
+          fetchStats().catch(err => { console.error(err); process.exit(1); });
+          EOF
+          node get-stats.js
+          rm get-stats.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add stats.json
+          git commit -m "chore: update profile stats JSON [skip ci]" || exit 0
+          git push

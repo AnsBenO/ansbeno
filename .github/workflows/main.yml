@@ -49,6 +49,7 @@ jobs:
 
             if (!response.ok) {
               const text = await response.text();
+
               throw new Error(
                 `GitHub REST API ${response.status}: ${text}`
               );
@@ -72,6 +73,7 @@ jobs:
 
             if (!response.ok) {
               const text = await response.text();
+
               throw new Error(
                 `GitHub GraphQL API ${response.status}: ${text}`
               );
@@ -95,8 +97,21 @@ jobs:
                   name
 
                   contributionsCollection {
-                    totalCommitContributions
-                    restrictedContributionsCount
+                    commitContributionsByRepository(
+                      maxRepositories: 100
+                    ) {
+                      repository {
+                        name
+                      }
+
+                      contributions(first: 100) {
+                        nodes {
+                          commitCount
+                          occurredAt
+                          isRestricted
+                        }
+                      }
+                    }
                   }
 
                   pullRequests(first: 1) {
@@ -122,10 +137,12 @@ jobs:
                     nodes {
                       name
                       url
+                      description
                       stargazerCount
                       forkCount
                       isPrivate
                       isFork
+                      updatedAt
 
                       languages(
                         first: 10
@@ -151,6 +168,48 @@ jobs:
             return githubGraphQL(query, { username });
           }
 
+          function getWeekStart(dateString) {
+            const date = new Date(dateString);
+
+            const day = date.getUTCDay();
+
+            const diff = day === 0 ? -6 : 1 - day;
+
+            date.setUTCDate(date.getUTCDate() + diff);
+
+            return date.toISOString().split("T")[0];
+          }
+
+          function fetchWeeklyCommits(user) {
+            const weekly = {};
+
+            for (const repository of user.contributionsCollection
+              .commitContributionsByRepository) {
+
+              for (const contribution of repository.contributions.nodes) {
+                const week = getWeekStart(
+                  contribution.occurredAt
+                );
+
+                if (!weekly[week]) {
+                  weekly[week] = 0;
+                }
+
+                weekly[week] += contribution.commitCount;
+              }
+            }
+
+            return Object.entries(weekly)
+              .map(([week, count]) => ({
+                week,
+                count
+              }))
+              .sort(
+                (a, b) =>
+                  new Date(a.week) - new Date(b.week)
+              );
+          }
+
           async function fetchWeeklyCodeFrequency(repositories) {
             const weekly = {};
 
@@ -169,6 +228,7 @@ jobs:
                   console.log(
                     `Code frequency is still being calculated for ${repo.name}`
                   );
+
                   continue;
                 }
 
@@ -176,6 +236,7 @@ jobs:
                   console.warn(
                     `Could not fetch code frequency for ${repo.name}: ${response.status}`
                   );
+
                   continue;
                 }
 
@@ -225,7 +286,9 @@ jobs:
           }
 
           async function fetchStats() {
-            console.log(`Fetching statistics for ${username}...`);
+            console.log(
+              `Fetching statistics for ${username}...`
+            );
 
             const data = await fetchUser();
             const user = data.user;
@@ -253,8 +316,13 @@ jobs:
               repositories.push({
                 name: repo.name,
                 url: repo.url,
+                description: repo.description,
                 stars: repo.stargazerCount,
-                forks: repo.forkCount
+                forks: repo.forkCount,
+                language:
+                  repo.languages.edges[0]?.node.name || null,
+                isFork: repo.isFork,
+                updatedAt: repo.updatedAt
               });
 
               for (const lang of repo.languages.edges) {
@@ -274,6 +342,13 @@ jobs:
                 user.repositories.nodes
               );
 
+            console.log(
+              "Fetching weekly commit activity..."
+            );
+
+            const weeklyCommits =
+              fetchWeeklyCommits(user);
+
             const stats = {
               username,
               name: user.name,
@@ -282,11 +357,7 @@ jobs:
               following: profile.following,
               publicRepositories: profile.public_repos,
 
-              commits:
-                user.contributionsCollection
-                  .totalCommitContributions +
-                user.contributionsCollection
-                  .restrictedContributionsCount,
+              commits: weeklyCommits,
 
               prs: user.pullRequests.totalCount,
               issues: user.issues.totalCount,

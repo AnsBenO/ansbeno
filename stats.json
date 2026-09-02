@@ -4,7 +4,7 @@
   "followers": 8,
   "following": 10,
   "publicRepositories": 29,
-  "commits": 134,
+  "commits": 135,
   "prs": 3,
   "issues": 17,
   "stars": 3,
@@ -185,7 +185,7 @@
       "forks": 0
     }
   ],
-  "weeklyCodeFrequency": [
+  "codeActivity": [
     {
       "week": "2023-09-03",
       "additions": 13090,

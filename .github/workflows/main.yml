@@ -2,8 +2,8 @@ name: Update Profile Stats JSON
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
+    - cron: '0 */12 * * *' # Runs every 12 hours
+  workflow_dispatch: # Allows manual execution
 
 permissions:
   contents: write
@@ -40,6 +40,10 @@ jobs:
                     restrictedContributionsCount
                   }
 
+                  repositoriesContributedTo(first: 1) {
+                    totalCount
+                  }
+
                   pullRequests(first: 1) {
                     totalCount
                   }
@@ -52,10 +56,6 @@ jobs:
                     totalCount
                   }
 
-                  repositoriesContributedTo(first: 1) {
-                    totalCount
-                  }
-
                   repositories(
                     first: 100
                     ownerAffiliations: OWNER
@@ -65,10 +65,7 @@ jobs:
                     }
                   ) {
                     nodes {
-                      stargazers {
-                        totalCount
-                      }
-
+                      stargazerCount
                       forkCount
 
                       languages(
@@ -105,13 +102,16 @@ jobs:
                 },
                 body: JSON.stringify({
                   query,
-                  variables: { username }
+                  variables: {
+                    username
+                  }
                 })
               }
             );
 
             if (!response.ok) {
               const text = await response.text();
+
               throw new Error(
                 `GitHub API responded with status ${response.status}: ${text}`
               );
@@ -126,17 +126,20 @@ jobs:
             }
 
             if (!result.data?.user) {
-              throw new Error(`GitHub user '${username}' not found`);
+              throw new Error(
+                `GitHub user '${username}' not found`
+              );
             }
 
             const user = result.data.user;
 
             let totalStars = 0;
             let totalForks = 0;
+
             const languageMap = {};
 
             for (const repo of user.repositories.nodes) {
-              totalStars += repo.stargazers.totalCount;
+              totalStars += repo.stargazerCount;
               totalForks += repo.forkCount;
 
               for (const lang of repo.languages.edges) {
@@ -150,14 +153,21 @@ jobs:
             const stats = {
               username,
               name: user.name,
+
               commits:
                 user.contributionsCollection.totalCommitContributions +
                 user.contributionsCollection.restrictedContributionsCount,
+
               prs: user.pullRequests.totalCount,
+
               issues: user.issues.totalCount,
+
               stars: totalStars,
+
               forks: totalForks,
+
               followers: user.followers.totalCount,
+
               languages: Object.entries(languageMap)
                 .map(([name, size]) => ({
                   name,
@@ -171,8 +181,8 @@ jobs:
               JSON.stringify(stats, null, 2) + '\\n'
             );
 
-            console.log('Generated stats.json');
-            console.log(stats);
+            console.log('Generated stats.json:');
+            console.log(JSON.stringify(stats, null, 2));
           }
 
           fetchStats().catch(err => {
@@ -191,6 +201,7 @@ jobs:
 
           git add stats.json
 
+          # Exit successfully if there are no changes
           git diff --cached --quiet && exit 0
 
           git commit -m "chore: update profile stats JSON [skip ci]"

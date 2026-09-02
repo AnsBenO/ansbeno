@@ -296,7 +296,7 @@ jobs:
 
               repositories,
 
-              weeklyCodeFrequency,
+              codeActivity: weeklyCodeFrequency,
 
               languages: Object.entries(languageMap)
                 .map(([name, size]) => ({

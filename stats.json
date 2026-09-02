@@ -1,1 +1,48 @@
-
+{
+  "username": "AnsBenO",
+  "name": "Anas BenOmar",
+  "commits": 131,
+  "prs": 3,
+  "issues": 17,
+  "stars": 3,
+  "forks": 0,
+  "followers": 8,
+  "languages": [
+    {
+      "name": "Java",
+      "size": 4553821
+    },
+    {
+      "name": "TypeScript",
+      "size": 3276275
+    },
+    {
+      "name": "HTML",
+      "size": 1275983
+    },
+    {
+      "name": "CSS",
+      "size": 225067
+    },
+    {
+      "name": "SCSS",
+      "size": 57325
+    },
+    {
+      "name": "Python",
+      "size": 22492
+    },
+    {
+      "name": "JavaScript",
+      "size": 21280
+    },
+    {
+      "name": "PLpgSQL",
+      "size": 976
+    },
+    {
+      "name": "Dockerfile",
+      "size": 483
+    }
+  ]
+}\n

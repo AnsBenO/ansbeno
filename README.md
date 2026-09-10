@@ -9,7 +9,7 @@ I'm a **Software Engineer** specializing in full-stack web application developme
 * **Languages:** Java, TypeScript, JavaScript, SQL
 * **Backend:** Spring Boot, Jakarta EE, Hibernate, Node.js, Express.js
 * **Frontend:** Angular, React, PrimeNG, HTML5/CSS3
-* **DevOps & Cloud:** Docker, Kubernetes (GKE), Google Cloud Platform (GCP), Jenkins, GitHub Actions
+* **DevOps & Cloud:** Docker, GitHub Actions
 * **Databases & Tools:** PostgreSQL, MySQL, MongoDB, Flyway, Kibana, Git
 
 ---
@@ -21,13 +21,10 @@ I'm a **Software Engineer** specializing in full-stack web application developme
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ---
 
 ### 📫 Connect with Me
 
 Feel free to explore my repositories! If you'd like to collaborate on an open-source project or talk tech, let's connect:
 
-* **LinkedIn:** [linkedin.com/in/anass-ben-omar-159374274](linkedin.com/in/anass-ben-omar-159374274) 
-* **Portfolio:** [https://ansbeno.github.io/portfolio/](https://ansbeno.github.io/portfolio/)
 * **Email:** [anas-ben-omar@outlook.com](anas-ben-omar@outlook.com)

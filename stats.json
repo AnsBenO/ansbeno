@@ -124,16 +124,6 @@
       "updatedAt": "2026-09-01T20:20:29Z"
     },
     {
-      "name": "internship-project",
-      "url": "https://github.com/AnsBenO/internship-project",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "language": "Java",
-      "isFork": false,
-      "updatedAt": "2026-04-16T22:13:38Z"
-    },
-    {
       "name": "sql-tutor",
       "url": "https://github.com/AnsBenO/sql-tutor",
       "description": null,

@@ -1,18 +1,10 @@
 {
   "username": "AnsBenO",
   "name": "Anas BenOmar",
-  "followers": 8,
+  "followers": 9,
   "following": 10,
-  "publicRepositories": 29,
+  "publicRepositories": 30,
   "commits": [
-    {
-      "week": "2025-09-01",
-      "count": 21
-    },
-    {
-      "week": "2025-09-08",
-      "count": 2
-    },
     {
       "week": "2025-12-08",
       "count": 5
@@ -63,7 +55,7 @@
     },
     {
       "week": "2026-08-03",
-      "count": 14
+      "count": 15
     },
     {
       "week": "2026-08-17",
@@ -75,7 +67,31 @@
     },
     {
       "week": "2026-08-31",
-      "count": 16
+      "count": 24
+    },
+    {
+      "week": "2026-09-07",
+      "count": 6
+    },
+    {
+      "week": "2026-09-14",
+      "count": 1
+    },
+    {
+      "week": "2026-09-28",
+      "count": 6
+    },
+    {
+      "week": "2026-10-05",
+      "count": 10
+    },
+    {
+      "week": "2026-10-12",
+      "count": 8
+    },
+    {
+      "week": "2026-10-19",
+      "count": 4
     }
   ],
   "prs": 3,
@@ -87,7 +103,7 @@
       "name": "sql-tutor-web",
       "url": "https://github.com/AnsBenO/sql-tutor-web",
       "description": "Spring, HTMX and jetty example",
-      "stars": 4,
+      "stars": 1,
       "forks": 0,
       "language": "HTML",
       "isFork": false,
@@ -97,830 +113,294 @@
       "name": "story-corner",
       "url": "https://github.com/AnsBenO/story-corner",
       "description": "spring boot - angular - ngrx/signals example",
-      "stars": 5,
-      "forks": 2,
+      "stars": 1,
+      "forks": 0,
       "language": "Java",
       "isFork": false,
       "updatedAt": "2025-08-26T12:32:25Z"
     },
     {
-      "name": "portfolio",
-      "url": "https://github.com/AnsBenO/portfolio",
-      "description": null,
-      "stars": 2,
-      "forks": 1,
-      "language": "TypeScript",
-      "isFork": false,
-      "updatedAt": "2026-08-21T10:30:58Z"
-    },
-    {
-      "name": "cinema",
-      "url": "https://github.com/AnsBenO/cinema",
-      "description": null,
-      "stars": 6,
-      "forks": 2,
-      "language": "Java",
-      "isFork": false,
-      "updatedAt": "2026-09-01T20:20:29Z"
-    },
-    {
-      "name": "sql-tutor",
-      "url": "https://github.com/AnsBenO/sql-tutor",
+      "name": "europass-json-persistence",
+      "url": "https://github.com/AnsBenO/europass-json-persistence",
       "description": null,
       "stars": 1,
       "forks": 0,
       "language": "Java",
       "isFork": false,
+      "updatedAt": "2024-11-20T09:08:59Z"
+    },
+    {
+      "name": "ng-quiz",
+      "url": "https://github.com/AnsBenO/ng-quiz",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2026-10-19T21:51:28Z"
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/AnsBenO/portfolio",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2026-10-20T20:24:11Z"
+    },
+    {
+      "name": "teammates",
+      "url": "https://github.com/AnsBenO/teammates",
+      "description": "TEAMMATES is a feedback management tool for education",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": true,
+      "updatedAt": "2026-07-20T18:50:39Z"
+    },
+    {
+      "name": "design-patterns",
+      "url": "https://github.com/AnsBenO/design-patterns",
+      "description": "Design Patterns Examples",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2026-08-24T19:14:02Z"
+    },
+    {
+      "name": "SOLID",
+      "url": "https://github.com/AnsBenO/SOLID",
+      "description": "SOLID Principles",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2026-08-24T19:14:56Z"
+    },
+    {
+      "name": "cinema",
+      "url": "https://github.com/AnsBenO/cinema",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2026-09-14T21:57:41Z"
+    },
+    {
+      "name": "internship-project",
+      "url": "https://github.com/AnsBenO/internship-project",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2026-04-16T22:13:38Z"
+    },
+    {
+      "name": "quarkus-webapp-example",
+      "url": "https://github.com/AnsBenO/quarkus-webapp-example",
+      "description": "Quarkus Qute and HTMX TodoList example",
+      "stars": 0,
+      "forks": 0,
+      "language": "CSS",
+      "isFork": false,
+      "updatedAt": "2026-10-04T15:23:05Z"
+    },
+    {
+      "name": "sql-tutor",
+      "url": "https://github.com/AnsBenO/sql-tutor",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
       "updatedAt": "2025-08-09T20:39:06Z"
+    },
+    {
+      "name": "chat-room",
+      "url": "https://github.com/AnsBenO/chat-room",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2025-08-09T13:53:43Z"
+    },
+    {
+      "name": "cdk-demo",
+      "url": "https://github.com/AnsBenO/cdk-demo",
+      "description": "Angular CDK example",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2025-08-16T12:41:07Z"
+    },
+    {
+      "name": "mat-demo",
+      "url": "https://github.com/AnsBenO/mat-demo",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2025-07-23T23:06:57Z"
+    },
+    {
+      "name": "ecom-spring-boot",
+      "url": "https://github.com/AnsBenO/ecom-spring-boot",
+      "description": "spring boot thymeleaf, htmx, tailwindcss and file export (excel/pdf) example",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "isFork": false,
+      "updatedAt": "2025-08-22T15:20:30Z"
+    },
+    {
+      "name": "jakarta-faces-example",
+      "url": "https://github.com/AnsBenO/jakarta-faces-example",
+      "description": "Jakarta faces example ",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2025-07-03T23:54:16Z"
+    },
+    {
+      "name": "struts-demo-app",
+      "url": "https://github.com/AnsBenO/struts-demo-app",
+      "description": "struts framework example ",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2025-07-03T23:54:50Z"
+    },
+    {
+      "name": "e-commerce",
+      "url": "https://github.com/AnsBenO/e-commerce",
+      "description": "Java Servlet / JSP example ",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2025-07-04T00:00:56Z"
+    },
+    {
+      "name": "library-app",
+      "url": "https://github.com/AnsBenO/library-app",
+      "description": "spring framework / JSP example ",
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2025-07-22T17:43:43Z"
+    },
+    {
+      "name": "ansbeno",
+      "url": "https://github.com/AnsBenO/ansbeno",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "isFork": false,
+      "updatedAt": "2026-10-13T19:25:03Z"
+    },
+    {
+      "name": "ngrx-signals-demo",
+      "url": "https://github.com/AnsBenO/ngrx-signals-demo",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2024-08-03T16:07:01Z"
+    },
+    {
+      "name": "auth-angular",
+      "url": "https://github.com/AnsBenO/auth-angular",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2024-07-18T19:25:28Z"
+    },
+    {
+      "name": "spring-security-app",
+      "url": "https://github.com/AnsBenO/spring-security-app",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "isFork": false,
+      "updatedAt": "2024-07-08T15:42:34Z"
+    },
+    {
+      "name": "quicknotes-mean",
+      "url": "https://github.com/AnsBenO/quicknotes-mean",
+      "description": "MEAN stack project example",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2025-07-03T23:53:08Z"
+    },
+    {
+      "name": "quicknotes-app",
+      "url": "https://github.com/AnsBenO/quicknotes-app",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2024-06-25T13:30:52Z"
+    },
+    {
+      "name": "clubcompass-app",
+      "url": "https://github.com/AnsBenO/clubcompass-app",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "isFork": false,
+      "updatedAt": "2026-10-04T11:27:08Z"
+    },
+    {
+      "name": "angular-reactive-form",
+      "url": "https://github.com/AnsBenO/angular-reactive-form",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2026-04-08T13:38:30Z"
+    },
+    {
+      "name": "angular-practice",
+      "url": "https://github.com/AnsBenO/angular-practice",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2026-08-04T13:44:44Z"
+    },
+    {
+      "name": "dictionary-angular",
+      "url": "https://github.com/AnsBenO/dictionary-angular",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "isFork": false,
+      "updatedAt": "2025-07-27T17:55:31Z"
     }
   ],
-  "codeActivity": [
-    {
-      "week": "2023-09-03",
-      "additions": 13090,
-      "deletions": 0
-    },
-    {
-      "week": "2023-09-10",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-09-17",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-09-24",
-      "additions": 15317,
-      "deletions": 1226
-    },
-    {
-      "week": "2023-10-01",
-      "additions": 13144,
-      "deletions": 29
-    },
-    {
-      "week": "2023-10-08",
-      "additions": 2126,
-      "deletions": 1212
-    },
-    {
-      "week": "2023-10-15",
-      "additions": 95,
-      "deletions": 90
-    },
-    {
-      "week": "2023-10-22",
-      "additions": 284,
-      "deletions": 41
-    },
-    {
-      "week": "2023-10-29",
-      "additions": 31,
-      "deletions": 15
-    },
-    {
-      "week": "2023-11-05",
-      "additions": 65,
-      "deletions": 58
-    },
-    {
-      "week": "2023-11-12",
-      "additions": 39,
-      "deletions": 48
-    },
-    {
-      "week": "2023-11-19",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-11-26",
-      "additions": 970,
-      "deletions": 823
-    },
-    {
-      "week": "2023-12-03",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-12-10",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-12-17",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-12-24",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2023-12-31",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-01-07",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-01-14",
-      "additions": 35,
-      "deletions": 16
-    },
-    {
-      "week": "2024-01-21",
-      "additions": 327,
-      "deletions": 13
-    },
-    {
-      "week": "2024-01-28",
-      "additions": 572,
-      "deletions": 105
-    },
-    {
-      "week": "2024-02-04",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-02-11",
-      "additions": 208,
-      "deletions": 139
-    },
-    {
-      "week": "2024-02-18",
-      "additions": 21,
-      "deletions": 17
-    },
-    {
-      "week": "2024-02-25",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-03-03",
-      "additions": 22,
-      "deletions": 1
-    },
-    {
-      "week": "2024-03-10",
-      "additions": 2658,
-      "deletions": 2378
-    },
-    {
-      "week": "2024-03-17",
-      "additions": 2697,
-      "deletions": 515
-    },
-    {
-      "week": "2024-03-24",
-      "additions": 348,
-      "deletions": 384
-    },
-    {
-      "week": "2024-03-31",
-      "additions": 8368,
-      "deletions": 35
-    },
-    {
-      "week": "2024-04-07",
-      "additions": 3635,
-      "deletions": 842
-    },
-    {
-      "week": "2024-04-14",
-      "additions": 675,
-      "deletions": 318
-    },
-    {
-      "week": "2024-04-21",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-04-28",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-05-05",
-      "additions": 1832,
-      "deletions": 808
-    },
-    {
-      "week": "2024-05-12",
-      "additions": 24654,
-      "deletions": 2596
-    },
-    {
-      "week": "2024-05-19",
-      "additions": 23360,
-      "deletions": 32811
-    },
-    {
-      "week": "2024-05-26",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-06-02",
-      "additions": 188,
-      "deletions": 147
-    },
-    {
-      "week": "2024-06-09",
-      "additions": 1128147,
-      "deletions": 1114188
-    },
-    {
-      "week": "2024-06-16",
-      "additions": 40375,
-      "deletions": 36884
-    },
-    {
-      "week": "2024-06-23",
-      "additions": 641,
-      "deletions": 315
-    },
-    {
-      "week": "2024-06-30",
-      "additions": 2620,
-      "deletions": 1079
-    },
-    {
-      "week": "2024-07-07",
-      "additions": 15648,
-      "deletions": 100
-    },
-    {
-      "week": "2024-07-14",
-      "additions": 1788,
-      "deletions": 1431
-    },
-    {
-      "week": "2024-07-21",
-      "additions": 1144,
-      "deletions": 1308
-    },
-    {
-      "week": "2024-07-28",
-      "additions": 15402,
-      "deletions": 586
-    },
-    {
-      "week": "2024-08-04",
-      "additions": 207,
-      "deletions": 36
-    },
-    {
-      "week": "2024-08-11",
-      "additions": 21298,
-      "deletions": 750
-    },
-    {
-      "week": "2024-08-18",
-      "additions": 2333,
-      "deletions": 1157
-    },
-    {
-      "week": "2024-08-25",
-      "additions": 1406,
-      "deletions": 578
-    },
-    {
-      "week": "2024-09-01",
-      "additions": 5349,
-      "deletions": 4157
-    },
-    {
-      "week": "2024-09-08",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-09-15",
-      "additions": 268,
-      "deletions": 139
-    },
-    {
-      "week": "2024-09-22",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "week": "2024-09-29",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-10-06",
-      "additions": 100,
-      "deletions": 7
-    },
-    {
-      "week": "2024-10-13",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-10-20",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-10-27",
-      "additions": 5244,
-      "deletions": 204
-    },
-    {
-      "week": "2024-11-03",
-      "additions": 5338,
-      "deletions": 411
-    },
-    {
-      "week": "2024-11-10",
-      "additions": 13045,
-      "deletions": 676
-    },
-    {
-      "week": "2024-11-17",
-      "additions": 2169,
-      "deletions": 821
-    },
-    {
-      "week": "2024-11-24",
-      "additions": 361,
-      "deletions": 232
-    },
-    {
-      "week": "2024-12-01",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-12-08",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-12-15",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-12-22",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2024-12-29",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-01-05",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-01-12",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-01-19",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-01-26",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-02-02",
-      "additions": 19,
-      "deletions": 8
-    },
-    {
-      "week": "2025-02-09",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-02-16",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-02-23",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-03-02",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-03-09",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-03-16",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-03-23",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "week": "2025-03-30",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-04-06",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-04-13",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-04-20",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-04-27",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-05-04",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-05-11",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-05-18",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-05-25",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-06-01",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-06-08",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-06-15",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-06-22",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-06-29",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-07-06",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-07-13",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-07-20",
-      "additions": 33505,
-      "deletions": 1347
-    },
-    {
-      "week": "2025-07-27",
-      "additions": 629,
-      "deletions": 294
-    },
-    {
-      "week": "2025-08-03",
-      "additions": 684,
-      "deletions": 0
-    },
-    {
-      "week": "2025-08-10",
-      "additions": 4217,
-      "deletions": 245
-    },
-    {
-      "week": "2025-08-17",
-      "additions": 190,
-      "deletions": 231
-    },
-    {
-      "week": "2025-08-24",
-      "additions": 3205,
-      "deletions": 416
-    },
-    {
-      "week": "2025-08-31",
-      "additions": 5261,
-      "deletions": 3577
-    },
-    {
-      "week": "2025-09-07",
-      "additions": 438,
-      "deletions": 202
-    },
-    {
-      "week": "2025-09-14",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-09-21",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-09-28",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-10-05",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-10-12",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-10-19",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-10-26",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-11-02",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-11-09",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-11-16",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-11-23",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-11-30",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-12-07",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2025-12-14",
-      "additions": 1586,
-      "deletions": 1523
-    },
-    {
-      "week": "2025-12-21",
-      "additions": 76,
-      "deletions": 8
-    },
-    {
-      "week": "2025-12-28",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-01-04",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-01-11",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-01-18",
-      "additions": 95,
-      "deletions": 53
-    },
-    {
-      "week": "2026-01-25",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-02-01",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-02-08",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-02-15",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-02-22",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-03-01",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-03-08",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-03-15",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-03-22",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-03-29",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-04-05",
-      "additions": 4772,
-      "deletions": 3932
-    },
-    {
-      "week": "2026-04-12",
-      "additions": 8430,
-      "deletions": 0
-    },
-    {
-      "week": "2026-04-19",
-      "additions": 29563,
-      "deletions": 46
-    },
-    {
-      "week": "2026-04-26",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-05-03",
-      "additions": 4724,
-      "deletions": 1464
-    },
-    {
-      "week": "2026-05-10",
-      "additions": 2370,
-      "deletions": 1955
-    },
-    {
-      "week": "2026-05-17",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-05-24",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-05-31",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-06-07",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-06-14",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-06-21",
-      "additions": 1595,
-      "deletions": 70
-    },
-    {
-      "week": "2026-06-28",
-      "additions": 257,
-      "deletions": 260
-    },
-    {
-      "week": "2026-07-05",
-      "additions": 4917,
-      "deletions": 5188
-    },
-    {
-      "week": "2026-07-12",
-      "additions": 14491,
-      "deletions": 1992
-    },
-    {
-      "week": "2026-07-19",
-      "additions": 0,
-      "deletions": 0
-    },
-    {
-      "week": "2026-07-26",
-      "additions": 6551,
-      "deletions": 730
-    },
-    {
-      "week": "2026-08-02",
-      "additions": 17306,
-      "deletions": 20037
-    },
-    {
-      "week": "2026-08-09",
-      "additions": 4,
-      "deletions": 3
-    },
-    {
-      "week": "2026-08-16",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "week": "2026-08-23",
-      "additions": 12321,
-      "deletions": 1737
-    },
-    {
-      "week": "2026-08-30",
-      "additions": 272,
-      "deletions": 20
-    }
-  ],
+  "codeActivity": [],
   "languages": [
     {
       "name": "Java",
@@ -928,23 +408,23 @@
     },
     {
       "name": "TypeScript",
-      "size": 3276275
+      "size": 3514430
     },
     {
       "name": "HTML",
-      "size": 1275983
+      "size": 1296718
     },
     {
       "name": "CSS",
-      "size": 225223
+      "size": 268673
     },
     {
       "name": "SCSS",
-      "size": 59236
+      "size": 61081
     },
     {
       "name": "JavaScript",
-      "size": 27621
+      "size": 30531
     },
     {
       "name": "Python",
